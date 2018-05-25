@@ -269,7 +269,7 @@ body {
 margin-left: 150px;
 margin-right: 150px; */
     max-width: 960px;
-    margin: 0 auto;
+    margin-left: 40px;
 }
 
 .header .header-wrapper {
@@ -284,7 +284,6 @@ margin-right: 150px; */
 }
 
 .header .header-wrapper .top-menu .left {
-    
     font-family: Roboto;
     font-size: 12px;
     font-weight: normal;
@@ -297,27 +296,23 @@ margin-right: 150px; */
     float: left;
 }
 
-
 .header .header-wrapper .top-menu .right {
-    
-        float: right;
-        text-decoration: none;
-        color: #7ddfdf;
-        font-family: Roboto-Medium;
-        font-size: 12px;
-        font-weight: 500;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        letter-spacing: 0.5px;
-        text-align: right;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-       
-  }
-  .header .header-wrapper .top-menu .right a {
-    color: #7ddfdf;text-decoration: none;
-    padding: 11px;
-    
-  }
+    float: right;
+    text-decoration: none;
+    color: #7ddfdf;
+    font-family: Roboto-Medium;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: right;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
 
-  
+.header .header-wrapper .top-menu .right a {
+    color: #7ddfdf;
+    text-decoration: none;
+    padding: 11px;
+}
