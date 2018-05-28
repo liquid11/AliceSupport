@@ -256,8 +256,9 @@ textarea {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("https://cdn.zeplin.io/5783f542cf824e815b1857a9/assets/9DFC40A7-BB29-416C-B7BB-E5E94E6F0971.png");
-    background-repeat: no-repeat;
+    /* background-image: url("https://cdn.zeplin.io/5783f542cf824e815b1857a9/assets/9DFC40A7-BB29-416C-B7BB-E5E94E6F0971.png");
+    background-repeat: no-repeat; */
+    background-color: #e9e8e6;
 }
 
 * {
@@ -369,11 +370,96 @@ margin-right: 150px; */
     color: #ffffff;
 }
 
-
-.rectangle{
+.rectangle {
     margin-top: 221px;
     width: 50px;
     height: 5px;
     background-color: #f7295c;
+}
 
+.help-text {
+    /* width: 469px;
+  height: 52px; */
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.24;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #002836;
+}
+
+.help-text-sub {
+    /* width: 469px;
+    height: 26px; */
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.37;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: #002836;
+}
+
+.content {
+    margin-top: 24px;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 979px;
+}
+
+.content .help-text-sub {
+    margin-top: 12px;
+}
+
+
+.form{
+
+    margin-top: 42px;
+    width: 350px;
+}
+
+.form .form-wrapper {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.col-group input {
+    /* width: 321px;
+    height: 16px; */
+    padding-left: 15px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #979797;
+}
+
+.col-group input[type="text"] {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 30px;
+    border: solid 1px #d8d8d8;
+    background-color: #ffffff;
+    width:100%;
+}
+
+.submit{
+    width: 176px;
+    height: 40px;
+    color:#ffffff;
+    background-color: #f7295c;
+    border: 0;
+    width:100%;
 }
