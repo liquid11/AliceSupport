@@ -256,8 +256,6 @@ textarea {
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* background-image: url("https://cdn.zeplin.io/5783f542cf824e815b1857a9/assets/9DFC40A7-BB29-416C-B7BB-E5E94E6F0971.png");
-    background-repeat: no-repeat; */
     background-color: #e9e8e6;
 }
 
@@ -269,7 +267,7 @@ body {
     /* margin-top: 100px;
 margin-left: 150px;
 margin-right: 150px; */
-    padding: 15px;
+    /* padding: 15px; */
     /* max-width: 960px;
     margin-left: 16px;
     margin-right: 13px; */
@@ -308,8 +306,8 @@ margin-right: 150px; */
     float: right;
     text-decoration: none;
     color: #7ddfdf;
-    font-family: Roboto-Medium;
-    font-size: 12px;
+    font-family: Roboto;
+    font-size: 11px;
     font-weight: 500;
     font-style: normal;
     font-stretch: normal;
@@ -344,7 +342,7 @@ margin-right: 150px; */
     /* width: 386px;
     height: 16px; */
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -363,11 +361,10 @@ margin-right: 150px; */
     height: 44px;
     border: solid 2px #f7295c;
     color: #ffffff;
-    
 }
 
 .rectangle {
-    margin-top: 221px;
+    margin-top: 122px;
     width: 50px;
     height: 5px;
     background-color: #f7295c;
@@ -472,11 +469,22 @@ margin-right: 150px; */
 
 .banner .banner-wrapper {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 908px;
 }
 
+.banner .img-margin {
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+
+.banner .top-margin{
+    padding-top: 10px;
+}
+
+
 .banner .content {
-    width: 276px;
+    width: 227px;
     /* height: 50px;  */
     font-family: Roboto;
     font-size: 13px;
@@ -487,20 +495,21 @@ margin-right: 150px; */
     letter-spacing: 0.3px;
     color: #105372;
     overflow: hidden;
-    padding: 8px;
+    /* padding: 8px; */
 }
 
 .banner .content .bold {
-    font-family: Roboto-Bold;
+    
+    font-weight: bold;
 }
+
+.banner .content .light{
+    font-weight: lighter;
+}
+
 
 .banner .content .support-link {
     color: #009db6;
-    font-family: Roboto-Medium;
-}
-
-.banner .content .email {
-    font-family: Roboto-Light;
 }
 
 .products {
@@ -528,7 +537,7 @@ margin-right: 150px; */
 .products .question-text {
     /* width: 531px;
     height: 33px; */
-    font-family: Roboto-Light;
+    font-family: Roboto;
     font-size: 28px;
     font-weight: 300;
     font-style: normal;
@@ -555,17 +564,17 @@ margin-right: 150px; */
 
 .footer-wrapper {
     margin: 0 auto;
-    max-width: 579px;
+    max-width: 607px;
 }
 
 .footer-area {
     margin-top: 31px;
 }
 
-.footer  .footer-area a {
+.footer .footer-area a {
     /* width: 91.2px;
     height: 16px; */
-    font-family: Roboto-Regular;
+    font-family: Roboto;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
@@ -577,3 +586,53 @@ margin-right: 150px; */
     padding: 12px;
     text-decoration: none;
 }
+
+.footer .app-social {
+    margin-top: 13px;
+}
+
+.footer .app-social-wrapper {
+    max-width: 448px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* display: inline-block; */
+}
+
+.footer .app-social .apple-logo {
+    display: inline-block;
+    /* float: left; */
+    width: 113px;
+}
+
+.footer  .app-social .google-logo {
+    display: inline-block;
+    width: 113px;
+    padding-left: 3px;
+}
+
+
+.footer .app-social .join-us {
+    /* width: 91.2px;
+    height: 16px; */
+    padding-left: 35px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    color: #4a4a4a;
+  }
+
+  .footer .app-social .social-img {
+     padding-left: 7px;
+    display: inline-block;
+}
+
+
+/* 
+.footer .google-logo{
+
+    float: ;
+} */
