@@ -271,6 +271,12 @@ margin-right: 150px; */
     /* max-width: 960px;
     margin-left: 16px;
     margin-right: 13px; */
+    padding-left: 14px;
+}
+
+.header {
+    padding-right: 40px;
+   
 }
 
 .header .header-wrapper {
@@ -368,6 +374,7 @@ margin-right: 150px; */
     width: 50px;
     height: 5px;
     background-color: #f7295c;
+    /* margin-left: 14px; */
 }
 
 .help-text {
@@ -401,6 +408,7 @@ margin-right: 150px; */
 .content {
     margin-top: 24px;
     float: left;
+    /* padding-left: 14px; */
 }
 
 .content-wrapper {
@@ -416,6 +424,7 @@ margin-right: 150px; */
     overflow: hidden;
     margin-top: 153px;
     width: 350px;
+    /* padding-left: 14px; */
 }
 
 .form .form-wrapper {
@@ -469,7 +478,8 @@ margin-right: 150px; */
 
 .banner .banner-wrapper {
     margin: 0 auto;
-    max-width: 908px;
+    max-width: 960px;
+    width: 100%;
 }
 
 .banner .img-margin {
@@ -478,10 +488,9 @@ margin-right: 150px; */
     padding-bottom: 28px;
 }
 
-.banner .top-margin{
+.banner .top-margin {
     padding-top: 10px;
 }
-
 
 .banner .content {
     width: 227px;
@@ -498,15 +507,22 @@ margin-right: 150px; */
     /* padding: 8px; */
 }
 
+.banner .content .email-width {
+    width: 236px !important;
+}
+
+.banner .content .assistant-width {
+ width: 241px !important;
+}
+
+
 .banner .content .bold {
-    
     font-weight: bold;
 }
 
-.banner .content .light{
+.banner .content .light {
     font-weight: lighter;
 }
-
 
 .banner .content .support-link {
     color: #009db6;
@@ -604,12 +620,11 @@ margin-right: 150px; */
     width: 113px;
 }
 
-.footer  .app-social .google-logo {
+.footer .app-social .google-logo {
     display: inline-block;
     width: 113px;
     padding-left: 3px;
 }
-
 
 .footer .app-social .join-us {
     /* width: 91.2px;
@@ -623,13 +638,12 @@ margin-right: 150px; */
     line-height: normal;
     letter-spacing: -0.1px;
     color: #4a4a4a;
-  }
-
-  .footer .app-social .social-img {
-     padding-left: 7px;
-    display: inline-block;
 }
 
+.footer .app-social .social-img {
+    padding-left: 7px;
+    display: inline-block;
+}
 
 /* 
 .footer .google-logo{
