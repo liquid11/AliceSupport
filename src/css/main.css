@@ -256,7 +256,7 @@ textarea {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e9e8e6;
+    background-color: transparent !important;
 }
 
 * {
@@ -276,12 +276,11 @@ margin-right: 150px; */
 
 .header {
     padding-right: 40px;
-   
 }
 
 .header .header-wrapper {
-    max-width: 100%;
-    /* margin: 0 auto; */
+    max-width: 1200px;
+    margin: 0 auto;
     float: none;
 }
 
@@ -335,6 +334,10 @@ margin-right: 150px; */
 
 .bottom-menu .left {
     float: left;
+}
+
+.bottom-menu .left img {
+    width: 66px;
 }
 
 .bottom-menu .right-menu {
@@ -512,9 +515,8 @@ margin-right: 150px; */
 }
 
 .banner .content .assistant-width {
- width: 241px !important;
+    width: 241px !important;
 }
-
 
 .banner .content .bold {
     font-weight: bold;
@@ -584,7 +586,15 @@ margin-right: 150px; */
 }
 
 .footer-area {
-    margin-top: 31px;
+    overflow: hidden;
+}
+
+.footer-area ul {
+    padding-top: 20px;
+}
+
+.footer-area li {
+    float: left;
 }
 
 .footer .footer-area a {
@@ -650,3 +660,99 @@ margin-right: 150px; */
 
     float: ;
 } */
+
+@media only screen and (max-width: 375px) {
+    .container {
+        padding-left: 0px;
+    }
+    .top-menu {
+        display: none;
+    }
+    .right-menu {
+        display: none;
+    }
+    .bottom-menu .left {
+        float: none;
+    }
+    .help-text {
+        font-size: 30px;
+    }
+    .help-text-sub {
+        font-size: 16px;
+    }
+    .bottom-menu {
+        padding-top: 12px;
+        padding-left: 14px;
+    }
+    .rectangle {
+        margin-left: 12px;
+        margin-top: 35px;
+    }
+    .content {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .form {
+        padding-left: 12px;
+        width: 100%;
+        padding-right: 12px;
+    }
+    .form .form-wrapper {
+        margin: 0 auto;
+        max-width: 335px;
+    }
+    .banner {
+        padding-bottom: 12px;
+        padding-left: 12px;
+    }
+    .banner .content {
+        padding: 8px;
+        padding-bottom: 10px;
+    }
+    .banner .content:last-child {
+        padding-bottom: 30px;
+
+    }
+    .banner .banner-wrapper {
+        margin: 0 auto;
+        max-width: 375px;
+    }
+    .products-wrapper {
+        max-width: 375px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .container {
+        /* padding: 15px; */
+        padding-left: 0px;
+    }
+    .footer-wrapper {
+        max-width: 375px;
+    }
+    .footer-area {
+        padding-top: 12px;
+    }
+    .footer-area ul {
+        text-align: center;
+    }
+    .footer-area li {
+        float: none;
+        padding-bottom: 10px;
+    }
+    .footer .app-social-wrapper {
+        max-width: 116px;
+    }
+    .footer .app-social .google-logo {
+        padding-top: 10px
+    }
+    .footer .app-social .join-us {
+        /* padding-top: 10px; */
+        display: block;
+        margin-top: 10px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .footer .app-social .social-img {
+        padding-top: 11px;
+    }
+}
